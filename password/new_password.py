@@ -1,14 +1,20 @@
-import random
 import string
+import secrets
 
-def generate_password(length=12):
-    """Belirtilen uzunlukta rastgele bir şifre oluşturur."""
+
+def generate_password(length: int) -> str:
+    if length <= 0:
+        raise ValueError("Şifre uzunluğu 0'dan büyük olmalı")
+
     characters = string.ascii_letters + string.digits + string.punctuation
-    password = ''
-    for i in range(length):
-        password += random.choice(characters)
-    return password
 
-# Kullanım örneği
-password_length = 12  # İstediğiniz herhangi bir şifre uzunluğunu seçebilirsiniz
-print("Yeni şifreniz:", generate_password(password_length))
+
+    password = [
+        secrets.choice(string.ascii_letters),
+        secrets.choice(string.digits),
+    ]
+
+    password += [secrets.choice(characters) for _ in range(length - 2)]
+
+    secrets.SystemRandom().shuffle(password)
+    return "".join(password)
