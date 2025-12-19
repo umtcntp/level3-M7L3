@@ -8,6 +8,18 @@ def test_password_characters():
     for char in password:
         assert char in valid_characters
 
+def test_password_length():
+    """Şifrenin uzunluğunun belirtilen uzunlukla eşleşip eşleşmediğini test eder"""
+    password_length = 13
+    password = generate_password(password_length)
+    assert len(password) == password_length
+
+def test_password_uniqueness():
+    """Arka arkada oluşturulan iki şifrenin farklı olup olmadığını test eder"""
+    password1 = generate_password(12)
+    password2 = generate_password(12)
+    assert password1 != password2
+
 """
 Aşağıda önerilenlerden birini kullanarak başka bir test yazın. Alternatif olarak, kendi testinizi de oluşturabilirsiniz!
 Daha fazla test yazabilirseniz harika olur!
