@@ -1,5 +1,5 @@
 # Rastgele Şifre Üretici
-# Bu artık Umut'a ait
+# Bu artık ar3s ait
 
 Bu uygulama, belirlenen karakter sayısına göre rastgele şifreler üretmek için tasarlanmıştır. Şifreler büyük ve küçük harfler, sayılar ve özel karakterler içerebilir.
 
