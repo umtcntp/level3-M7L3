@@ -1,5 +1,10 @@
 # Rastgele Şifre Üretici
+
 # Bu artık Onur'a ait
+
+
+# Bu artık Serdar'a ait.
+
 
 Bu uygulama, belirlenen karakter sayısına göre rastgele şifreler üretmek için tasarlanmıştır. Şifreler büyük ve küçük harfler, sayılar ve özel karakterler içerebilir.
 
