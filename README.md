@@ -30,5 +30,3 @@ pytest
 
 **Ar3s** ✍️
 
-## ❗ÇOK YAKINDA BİR AİMBOT
-Çok yakında sıfırdan ders yapay zeka ile kodu kendim yazarak cs2 hilesi yazacağım.Bu gibi şeyler için lütfen discordumu ve github hesabımı kontrol edin. DİKKAT! **HİLEYİ DENEME AMAÇLI DEMO AYRICA VAC BAN RİSKİ VARDIR KESİNLİKLE İLLEGAL ÖNERMİYORUM , KULLANMIYORUM!**
